@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: admin
+#    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+kafka:
+  bootstrap-servers: localhost:9092
+  consumer:
+    group-id: employee-group
+
+
+
+
+
+https://coderbyte:com/sl-candidate?promo=canterr-15x70:technical-assessment-hjhzrr1yjn&invb=userrhd7q8ca:
